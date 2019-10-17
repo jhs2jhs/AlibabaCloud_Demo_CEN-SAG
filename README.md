@@ -1,12 +1,11 @@
 # AlibabaCloud_Demo_CEN-SAG
 
 ## Purpose
-It demonstrates on how to setup CEN+VPC and then use SAG to connect to Dataworks. 
+It demos on how to setup CEN+VPC+SAG and connect to Dataworks IP for cross region network acceleration. 
 
-Content:
-1. CEN setup is done
-2. SNAT setup is done
-3. SAG setup is on the way
+It aims to let Shanghai user can visit Alibaba Cloud managed service (e.g. Dataworks) via CEN with network speed accelerated. 
+
+![alt text](./screenshot/0_intro_architecture.jpg)
 
 
 ## CEN+SAG Configuration Steps:
