@@ -32,6 +32,17 @@ Content:
 ![alt text](./screenshot/10-config_uk_ecs.jpg)
 11. ssh into Shanghai ECS from London ECS to test if can ping to Dataworks via IPV4
 ![alt text](./screenshot/11-ping-dataworks-in-shanghai-ecs.jpg)
+12. buy SAG APP 
+![alt text](./screenshot/12-sag_app_buy.jpg)
+13. buy CCN instance
+![alt text](./screenshot/13-ccn_create_instance.jpg)
+14. bind CCN with CEN
+![alt text](./screenshot/14-ccn_bind_cen.jpg)
+15. bing CCN with SAG
+![alt text](./screenshot/15-sag_app_create_ccn.jpg)
+16. create SAG APP connection account. You should receive a email for detailed connection configiration. 
+![alt text](./screenshot/16-sag_app_create_account.jpg)
+
 
 
 ## SAG APP install and configuration
