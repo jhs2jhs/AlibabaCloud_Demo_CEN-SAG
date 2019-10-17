@@ -34,7 +34,7 @@ Content:
 ![alt text](./screenshot/11-ping-dataworks-in-shanghai-ecs.jpg)
 
 
-## SAG APP install and configuration [link](#sag_app_install_config)
+## SAG APP install and configuration
 1. download and install SAG app client (https://www.alibabacloud.com/help/doc-detail/102544.htm)
 ![alt text](./screenshot/sag_1_download.jpg)
 2. configure SAG with (SAG Instance ID, Username, Password)
