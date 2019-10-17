@@ -9,7 +9,7 @@ Content:
 3. SAG setup is on the way
 
 
-## Steps:
+## CEN+SAG Configuration Steps:
 1. create a VPC in London region
 ![alt text](./screenshot/1-create_uk_vpc.jpg)
 2. create a VPC in Shanghai region
@@ -32,6 +32,18 @@ Content:
 ![alt text](./screenshot/10-config_uk_ecs.jpg)
 11. ssh into Shanghai ECS from London ECS to test if can ping to Dataworks via IPV4
 ![alt text](./screenshot/11-ping-dataworks-in-shanghai-ecs.jpg)
+
+
+## SAG APP install and configuration
+1. download and install SAG app client (https://www.alibabacloud.com/help/doc-detail/102544.htm)
+![alt text](./screenshot/sag_1_download.jpg)
+2. configure SAG with (SAG Instance ID, Username, Password)
+![alt text](./screenshot/sag_2_config.jpg)
+3. Connect SAG
+![alt text](./screenshot/sag_3_connect.jpg)
+4. Try to ping ide-eu-west-1.data.aliyun.com and see if it return resolved ip
+5. You should be able to visit any UK traffic and will automatically direct to Datawork IP via CEN. 
+
 
 
 
